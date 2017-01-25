@@ -94,8 +94,9 @@ public class MyIntentService extends IntentService {
                 fos.write(next);
             }
             // successfully finished
-            
+
             result = Activity.RESULT_OK;
+
 
         } catch (Exception e) {
             e.printStackTrace();
